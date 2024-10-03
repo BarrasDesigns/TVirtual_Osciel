@@ -1,0 +1,12 @@
+:root {
+  --fondoColor: #eed701dd!important;
+}
+
+#wrapper {
+  margin-left: 2.5%;
+  width: 95%;
+  border-radius: 5%;
+  background: var(--fondoColor);
+}
+
+/*# sourceMappingURL=style.css.map */
