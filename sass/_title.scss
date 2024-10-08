@@ -6,7 +6,7 @@
 .tituloHeader {
     display: flex;
     flex-direction: column;
-    line-height: 0px;
+
 }
 
 .subtitulo {
@@ -15,11 +15,12 @@
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    justify-content: space-around;
 }
+
 .objectfit {
     display: flex;
     justify-content: space-around;
-    margin-top: -4.5rem;
     align-items: center;
 }
 
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 3rem;
+
 
 }
 
@@ -48,66 +49,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: -23%;
-}
-@media (max-width: 371px) {
-    .objectfit {
-        justify-content: center;
-    }
-
-    .objectfit>img {
-        width: 7rem;
-        height: 8rem;
-
-    }
-
-    .galeria__subtitulo,
-    .subtitulo {
-        font-size: 15px;
-
-    }
-
-    .subtitulo {
-        line-height: 17px;
-    }
-
-    .title {
-        display: none;
-    }
-
-    nav {
-        margin-bottom: 19% !important;
-    }
-
-    .logoPatronCont {
-        height: 100%;
-    }
-
+    // marg
 }
 
-@media (min-width: 960px) {
-    .galeria__titulo {
-        font-size: 6rem;
-    }
+@media (max-width: 371px) {}
 
-    .links {
-        max-width: 4.5rem;
-    }
-
-    .wrapper {
-        height: 0%;
-
-    }
-
-    .objectfit {
-        margin-top: -12.5rem;
-    }
-
-    .objectfit>img {
-        width: 18rem;
-        height: 22rem;
-    }
-
-
-
-}
+@media (min-width: 960px) {}
