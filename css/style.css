@@ -26,15 +26,7 @@
 }
 
 .objectfit > img {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background-color: black;
-  border: 3px solid #124C39;
-  z-index: 1000;
+  max-width: 60%;
 }
 
 .imgCard {
@@ -81,6 +73,17 @@ video {
     width: 960px;
   }
 }
+.enlaces {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.enlacesItem {
+  cursor: pointer;
+}
+
 :root {
   --fondoColor: #fead13;
 }

@@ -1,10 +1,12 @@
 @use 'title';
 @use 'video';
+@use 'enlaces';
 
-:root{
-    --fondoColor: #fead13; 
+:root {
+    --fondoColor: #fead13;
 }
-#wrapper{
+
+#wrapper {
     margin-left: 2.5%;
     width: 95%;
     border-radius: 5%;
