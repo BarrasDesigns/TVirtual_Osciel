@@ -27,8 +27,8 @@
 }
 
 .objectfit>img {
-    width: 10rem;
-    height: 12rem;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -37,7 +37,9 @@
     border: 3px solid #124C39;
     z-index: 1000;
 }
-
+.imgCard{
+    width: 100%;
+}
 .title {
     display: flex;
     justify-content: center;

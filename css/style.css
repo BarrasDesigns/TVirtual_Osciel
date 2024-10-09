@@ -26,8 +26,8 @@
 }
 
 .objectfit > img {
-  width: 10rem;
-  height: 12rem;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -35,6 +35,10 @@
   background-color: black;
   border: 3px solid #124C39;
   z-index: 1000;
+}
+
+.imgCard {
+  width: 100%;
 }
 
 .title {
@@ -57,8 +61,30 @@
     width: 100%;
   }
 }
+.videoCont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+video {
+  width: 300px;
+  height: 260px;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 460px) {
+  video {
+    width: 460px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  video {
+    width: 960px;
+  }
+}
 :root {
-  --fondoColor: #eed701dd!important;
+  --fondoColor: #fead13;
 }
 
 #wrapper {
