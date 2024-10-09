@@ -1,11 +1,7 @@
-.objectfitCont {
-  display: flex;
-  justify-content: space-around;
-}
-
 .tituloHeader {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .subtitulo {
@@ -15,6 +11,12 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
   justify-content: space-around;
+}
+
+.objectfitCont {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
 .objectfit {
@@ -47,6 +49,14 @@
   text-align: center;
 }
 
+@media (min-width: 560px) {
+  .objectfitCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
 :root {
   --fondoColor: #eed701dd!important;
 }
